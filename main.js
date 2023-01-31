@@ -78,4 +78,33 @@ const menu = [
       price: 22.99,
       img: "./images/item-10.jpeg",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-    }]
+    
+    }
+  ]
+
+  const produtos = document.querySelector('.produtos');
+
+  window.addEventListener('DOMContentLoaded', function(){
+    carregaProdutos(menu);
+  
+  })
+
+  function carregaProdutos(dispMenu){
+    let displayMenu = dispMenu.map(function(item){
+      return `<div class="produtos__produto">
+      <img src="${item.img}" alt="" class="produto__img">
+      <div class="produto__info">
+        <header>
+          <h4 class="produto__titulo">${item.title}</h4>
+          <h4 class="produto__preco">R$${item.price}</h4>
+        </header>
+        <p class="${item.desc}</p>
+      </div>
+    </div> <br>
+    `
+    })
+    displayMenu = displayMenu.join();
+    console.log(displayMenu)
+   produtos.innerHTML = displayMenu;
+  }
+ 
