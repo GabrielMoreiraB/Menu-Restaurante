@@ -9,12 +9,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>menu project</h1>
-    <!-- javascript -->
-    <script src="app.js"></script>
+    <h1>Nosso Menu</h1>
+    <div class="underline"></div>
+    <div class="menu__botoes">
+      <button class="menu__botoes-botao">All</button>
+      <button class="menu__botoes-botao">Breakfast</button>
+      <button class="menu__botoes-botao">Lunch</button>
+      <button class="menu__botoes-botao">Shakes</button>
+      <button class="menu__botoes-botao">Dinner</button>
+    </div>
+
+    <section class="produtos">
+      <div class="produtos__produto">
+        <img src="images/item-1.jpeg" alt="" class="produto__img">
+        <div class="produto__info">
+          <h4 class="produto__titulo">Buttermilk Pancakes</h4>
+          <h4 class="produto__preco">$15.99</h4>
+          <p class="produto__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et earum est ullam illum harum obcaecati voluptas rerum a maxime soluta. Accusantium cupiditate iste doloribus fuga optio, magnam repudiandae ea corporis.</p>
+        </div>
+      </div>
+    </section>
+    
+    <script src="main.js"></script>
   </body>
 </html>
