@@ -100,7 +100,7 @@ const menu = [
           <h4 class="produto__preco">R$${item.price}</h4>
           </header>
       </div>
-          <p class="produto__texto">"${item.desc}</p>
+          <p class="produto__texto">${item.desc}</p>
        
     </div>  `
       
