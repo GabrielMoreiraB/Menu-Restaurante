@@ -83,7 +83,7 @@ const menu = [
   ]
 
   const produtos = document.querySelector('.produtos');
-
+  
   window.addEventListener('DOMContentLoaded', function(){
     carregaProdutos(menu);
   
@@ -94,17 +94,18 @@ const menu = [
       return `<div class="produtos__produto">
       <img src="${item.img}" alt="" class="produto__img">
       <div class="produto__info">
-        <header>
+          <header>
           <h4 class="produto__titulo">${item.title}</h4>
           <h4 class="produto__preco">R$${item.price}</h4>
-        </header>
-        <p class="${item.desc}</p>
-      </div>
-    </div> <br>
-    `
+          </header>
+          <p class="produto__texto">"${item.desc}</p>
+      </div> </br>
+    </div>  `
+      
     })
-    displayMenu = displayMenu.join();
-    console.log(displayMenu)
+    displayMenu = displayMenu.join("");
+    //console.log(displayMenu)
    produtos.innerHTML = displayMenu;
+   console.log(produtos)
   }
  

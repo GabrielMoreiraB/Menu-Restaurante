@@ -23,6 +23,7 @@ h1{
 
 }
 
+
 .underline{
     width: 10em;
     height: 0.35em;
@@ -76,6 +77,7 @@ h1{
 
 .produto__img{
     width: 300px;
+    height: 200px;
     border: solid 6px var(--gold);
     border-radius: 10px;
     margin: auto;
