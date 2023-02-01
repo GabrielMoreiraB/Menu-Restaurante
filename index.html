@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nosso Menu</title>
-    <!-- font-awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -13,14 +12,16 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <input type="button" value="" id="darkMode">
+    <label for="darkMode" class="muda-tema"></label>
     <h1>Nosso Menu</h1>
     <div class="underline"></div>
     <div class="menu__botoes">
-      <button class="menu__botoes-botao">All</button>
-      <button class="menu__botoes-botao">Breakfast</button>
-      <button class="menu__botoes-botao">Lunch</button>
-      <button class="menu__botoes-botao">Shakes</button>
-      <button class="menu__botoes-botao">Dinner</button>
+      <button class="menu__botoes-botao" data-id="all">All</button>
+      <button class="menu__botoes-botao" data-id="breakfast">Breakfast</button>
+      <button class="menu__botoes-botao" data-id="lunch">Lunch</button>
+      <button class="menu__botoes-botao" data-id="shakes">Shakes</button>
+      <button class="menu__botoes-botao" data-id="dinner">Dinner</button>
     </div>
 
     <section class="produtos">

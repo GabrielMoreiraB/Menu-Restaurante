@@ -5,8 +5,33 @@
     --fonte-secundaria: "Open Sans", sans-serif;
     --bege-claro:hsl(210, 36%, 96%);
     --azul-esc:hsl(209, 61%, 16%);
-    --azul-claro: hsl(210, 22%, 49%);
+    --azul-claro: hsl(209, 19%, 52%);
     --gold: #c59d5f;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --img-darkmode: url(../images/lua.png);
+
+}
+
+#darkMode{
+    display: none;
+}
+
+.muda-tema{
+background-image: var(--img-darkmode);
+padding: 20px;
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+top: 3%;
+left: 2%;
+cursor: pointer;
+}
+
+.dark-mode{
+    background-color: var(--azul-esc);
+    color: var(--bege-claro);
+    --img-darkmode: url(../images/sol.png);
+    
 }
 
 body{
@@ -14,13 +39,14 @@ body{
     color: var(--azul-esc);
     font-family: var(--fonte-secundaria);
     font-weight: bolder;
+    transition: .5s;
 }
 
 h1{
-    padding: 5em 0 0.5em;
+    padding: 3em 0 0.5em;
     text-align: center;
     font-size: 3em;
-
+    font-weight: bolder;
 }
 
 
@@ -45,7 +71,7 @@ h1{
     border: solid 2px var(--gold);
     border-radius: 10px;
     padding: 0.375rem 0.75rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--shadow);
     transition: 0.3s linear;
 }
 
@@ -60,7 +86,7 @@ h1{
     grid-template-columns: 1fr 1fr;
     column-gap: 1.5em;
     row-gap: 3em;
-    margin: 3em;
+    margin: 3em auto;
     width: 80vw;
     
 }
@@ -69,10 +95,11 @@ h1{
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: auto auto;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--shadow);
     border-radius: 10px;
     padding: 0.3em;
     gap: 1em;
+    
 }
 
 .produto__img{
@@ -81,6 +108,7 @@ h1{
     border: solid 6px var(--gold);
     border-radius: 10px;
     margin: auto;
+    object-fit: cover;
 }
 
 .produto__info header{
@@ -101,3 +129,4 @@ h1{
     padding: 1em;
     color:var(--azul-claro);
 }
+

@@ -83,9 +83,10 @@ const menu = [
   ]
 
   const produtos = document.querySelector('.produtos');
-  
+  const listaBotao = document.querySelectorAll('.menu__botoes');
   window.addEventListener('DOMContentLoaded', function(){
     carregaProdutos(menu);
+    filtro();
   
   })
 
@@ -106,6 +107,32 @@ const menu = [
     displayMenu = displayMenu.join("");
     //console.log(displayMenu)
    produtos.innerHTML = displayMenu;
-   console.log(produtos)
+   //console.log(produtos)
   }
  
+
+  function filtro(){
+    listaBotao.forEach(function (item){
+      item.addEventListener('click',function(btn){
+        //console.log(btn.target.dataset.id);
+        const botaoClicado = btn.target.dataset.id;
+        const categoria = menu.filter(function(menuitem){
+          if(menuitem.category === botaoClicado){
+            return menuitem;
+          }
+        });
+        if(botaoClicado === "all"){
+          carregaProdutos(menu);
+        } else{
+          carregaProdutos(categoria);
+        }
+      });
+    });
+  }
+
+  
+
+  document.getElementById('darkMode').addEventListener('click', function(){
+    
+    document.body.classList.toggle("dark-mode");
+  })
