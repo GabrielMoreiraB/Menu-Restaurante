@@ -16,7 +16,7 @@ const menu = [
       price: 13.99,
       img: "./images/item-2.jpeg",
       desc: `Pão brioche, blend bovino 160 gramas, queijo cheddar fatiado, bacon crocante, cebola caramelizada, molho especial. Acompanha porção de batata 200g, molho da casa! `,
-      history: `As origens do hambúrguer são incertas e permeadas de mitos e histórias, porém é bem provável que tenha sido preparado pela primeira vez da maneira como o conhecemos hoje em fins do século XIX ou começo do século XX. Em 1904, nos Estados Unidos, na feira mundial de Saint Louis, capital de Missouri, foi apresentada oficialmente esta iguaria ao público americano, esta iguaria que trinta anos depois iria se tornar um verdadeiro simbolo do país: o hambúrguer. `,
+      history: `As origens do hambúrguer são incertas e permeadas de mitos e histórias, porém é bem provável que tenha sido preparado pela primeira vez da maneira como o conhecemos hoje em fins do século XIX ou começo do século XX. Em 1904, nos Estados Unidos, na feira mundial de Saint Louis, capital de Missouri, foi apresentada oficialmente esta iguaria ao público americano. `,
     },
     {
       id: 3,
