@@ -142,7 +142,6 @@ h1{
     grid-row: 3/4;
 }
 
-
 @media (min-width: 720px){
 
     .produtos{
@@ -213,7 +212,6 @@ h1{
     }
 
     
-
     .produto__texto{
         line-height: 1.4em;  
         font-size: 18px; 
