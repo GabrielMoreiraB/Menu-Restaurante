@@ -86,7 +86,7 @@ h1{
 
 .produtos{
     display: grid;
-    row-gap: 1em;
+    row-gap: 2em;
     margin: 3em auto;
     width: 80vw;
     
@@ -145,7 +145,7 @@ h1{
 
     .produtos{
         margin: 0 7vw;
-        row-gap: 1em;
+        row-gap: 2em;
     }
 
     .produto__info header{
