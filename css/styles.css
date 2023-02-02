@@ -89,24 +89,25 @@ h1{
     row-gap: 2em;
     margin: 3em auto;
     width: 80vw;
-    
+    height:fit-content;
 }
 
 .produtos__produto{
     background: var(--bg-cartao);
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto auto;
     box-shadow: var(--shadow);
     border-radius: 10px;
     padding: 0.3em;
-    column-gap: 1;
     margin: 0 auto;
+    height: 22vh;
     
 }
     
 .produto__img{
-    width: 150px;
-    height: 100px;
+    width: 130px;
+    height: 90px;
     border: solid 6px var(--gold);
     border-radius: 10px;
     margin: 0 auto;
@@ -120,7 +121,7 @@ h1{
     flex-direction: column;
     border-bottom:1px dotted;
     justify-content: space-between;
-    padding: .5em;
+    padding: .5em ;
     font-size: 1.5em;
     font-family: var(--fonte-primaria);
     grid-column: 2/3;
@@ -133,7 +134,7 @@ h1{
 }
 
 .produto__texto{
-    line-height: 1.2em;
+    line-height: 1em;
     font-size: 14px;
     padding: 1em;
     color:var(--azul-claro);
@@ -141,15 +142,39 @@ h1{
     grid-row: 3/4;
 }
 
+
 @media (min-width: 720px){
 
     .produtos{
-        margin: 0 7vw;
+        margin: 0 auto;
         row-gap: 2em;
+        width: 70vw;
+    }
+
+    .produtos__produto{
+        grid-template-columns: auto 1fr;
+        margin: 0 auto;
+        column-gap: 1em;
+        height: 17vh;
+        max-width: 800px;
+    }
+
+    .produto__img{
+        width: 190px;
+        height: 130px;
+        justify-self: flex-start;
+        margin: 0;
     }
 
     .produto__info header{
         flex-direction: row;
+    }
+
+    .produto__texto{ 
+        grid-column: 2/3;
+        grid-row: 2/3; 
+         
+            
     }
 }
 
@@ -161,11 +186,11 @@ h1{
 
     .produtos{
         grid-template-columns: 1fr 1fr;
-        column-gap: 1.5em; 
+        column-gap: 2em; 
         margin: 0;
-        row-gap: 3em;
+        row-gap: 2em;
         margin-left: 2.5vw ;
-        margin-bottom: 3em;
+        margin-bottom: 8em;
     }
 
     .produtos__produto{
@@ -175,6 +200,7 @@ h1{
         padding: 0.3em;
         gap: 1em;
         width: 45vw;
+        height: 22vh; 
     }
 
     .produto__titulo{
@@ -182,8 +208,8 @@ h1{
     }
 
     .produto__img{
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 165px;
     }
 
     
@@ -192,6 +218,10 @@ h1{
         line-height: 1.4em;  
         font-size: 18px; 
         grid-column: 2/3;
-        grid-row: 2/3;     
+        grid-row: 2/3; 
+        line-height: 1.2em;
+        font-size: 14px;
+        
+            
     }
 }
