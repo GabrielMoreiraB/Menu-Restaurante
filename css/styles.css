@@ -194,7 +194,7 @@ h1{
     }
 
     .produtos__produto{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto 1fr;
         box-shadow: var(--shadow);
         border-radius: 10px;
         padding: 0.3em;
@@ -208,8 +208,8 @@ h1{
     }
 
     .produto__img{
-        width: 250px;
-        height: 155px;
+        width: 230px;
+        height: 145px;
     }
 
     
