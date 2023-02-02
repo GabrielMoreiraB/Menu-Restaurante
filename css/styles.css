@@ -95,7 +95,7 @@ h1{
 .produtos__produto{
     background: var(--bg-cartao);
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto;
     grid-template-columns: auto auto;
     box-shadow: var(--shadow);
     border-radius: 10px;
