@@ -11,17 +11,18 @@ Você pode ver o site em funcionamento através **[deste link](https://gabrielmo
 Nosso menu conta com um filtro no cabeçalho para auxiliar a escolha através da refeição. Além disso, cada card (que corresponde a um prato) Contem nome do prato, valor, itens discriminados e uma foto. Ao virar o card, temos uma informação/História interessante sobre aquele prato.
 Foi implementado um modo dark ao projeto, alternado através do botão no canto superior esquerdo da página.
 
-* **Versão Desktop** - 
-<img src="Images/desktop.png" alt="desktop">
+* **Versão Desktop 💻** - 
+![alt text](https://github.com/GabrielMoreiraB/Menu-Restaurante/blob/main/images/desktop.png)
 
-* **Versão Tablet** - 
-<img src="Images/tablet.png" alt="desktop">
+* **Versão Tablet 📱** - 
+![alt text](https://github.com/GabrielMoreiraB/Menu-Restaurante/blob/main/images/tablet.png)
 
-* **Versão Mobile** - 
-<img src="Images/mobile.png" alt="desktop">
+* **Versão Mobile 🤳** - 
+![alt text](https://github.com/GabrielMoreiraB/Menu-Restaurante/blob/main/images/mobile.png)
 
-* **Costas do card** - 
-<img src="Images/cardflip.png" alt="desktop">
+#* **Costas do card** - 
+
+![alt text](https://github.com/GabrielMoreiraB/Menu-Restaurante/blob/main/images/cardflip.png)
 
 
 ## 🛠️ Construído com
