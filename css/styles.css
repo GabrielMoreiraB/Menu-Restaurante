@@ -86,7 +86,7 @@ h1{
 
 .produtos{
     display: grid;
-    row-gap: 2em;
+    row-gap: 3em;
     margin: 3em auto;
     width: 80vw;
     height:fit-content;
@@ -101,7 +101,7 @@ h1{
     border-radius: 10px;
     padding: 0.3em;
     margin: 0 auto;
-    height: 22vh;
+    height: 27vh;
     
 }
     
@@ -146,7 +146,7 @@ h1{
 
     .produtos{
         margin: 0 auto;
-        row-gap: 2em;
+        row-gap: 3em;
         width: 70vw;
     }
 
@@ -154,13 +154,13 @@ h1{
         grid-template-columns: auto 1fr;
         margin: 0 auto;
         column-gap: 1em;
-        height: 17vh;
+        height: 21vh;
         max-width: 800px;
     }
 
     .produto__img{
-        width: 190px;
-        height: 130px;
+        width: 150px;
+        height: 100px;
         justify-self: flex-start;
         margin: 0;
     }

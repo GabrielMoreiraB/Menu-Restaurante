@@ -33,13 +33,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 22vh;
+  height: 26vh;
 }
 
 @media (min-width: 720px){
   .flip-card {
     width: 70vw;
-    height: 18vh;
+    height: 20vh;
+  }
+
+  .flip-card-back{
+    height: 19vh;
   }
 }
 
