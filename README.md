@@ -1,4 +1,4 @@
-# Menu Restaurante
+# Menu Restaurante 🍽
 
 Projeto baseado na criação de um menu responsivo para um restaurante, totalmente interativo com funcionalidade de filtragem de pratos de acordo com a refeição desejada. 
 
