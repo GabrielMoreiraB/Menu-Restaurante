@@ -142,6 +142,13 @@ h1{
     grid-row: 3/4;
 }
 
+.rodape{
+    text-align: center;
+    padding: 3em 1em;
+    background: var(--bg-cartao);
+    box-shadow: var(--shadow);
+}
+
 @media (min-width: 720px){
 
     .produtos{
