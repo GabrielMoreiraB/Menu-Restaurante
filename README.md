@@ -24,7 +24,7 @@ Foi implementado um modo dark ao projeto, alternado através do botão no canto 
 
 ![alt text](https://github.com/GabrielMoreiraB/Menu-Restaurante/blob/main/images/cardflip.png)
 
-
+OBS: O card Diner Double possui textos reais como exemplo da aplicação proposta!
 ## 🛠️ Construído com
 
 Esse projeto foi construido utilizando as seguntes ferramentas:
