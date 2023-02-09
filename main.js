@@ -143,7 +143,7 @@ const menu = [
             return menuitem;
           }
         });
-        if(botaoClicado === "all"){
+        if(botaoClicado === "all" || botaoClicado === ""){
           carregaProdutos(menu);
         } else{
           carregaProdutos(categoria);
